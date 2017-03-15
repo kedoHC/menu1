@@ -1,0 +1,81 @@
+/*
+https://www.templatemonster.com/demo/61150.html
+ */
+#app_header{
+	background-image: url("../img/header_bg.jpg");
+	background-size: cover;
+	background-position: top center;
+	height: 100vh;
+}
+#menu{
+
+	color: #fff;
+	margin-top: 0px;
+
+}
+#menu .item_menu{
+	list-style: none;
+	display: inline-block;
+	width: 12%;
+	text-align: center;
+	padding: 40px 0 0 0;
+	font-size: 25px;
+	font-family: 'EB Garamond', serif;
+	cursor: pointer;
+}
+#menu .item_menu img{
+	width: 10%;
+	margin-left: 5px;
+}
+#menu #logo{
+	width: 20%;
+	font-family: 'Monoton', cursive;
+	font-size: 40px;
+}
+/*submenu*/
+#menu .item_menu .submenu{
+	position: absolute;
+	background-color: #eee;
+	border-radius: 5px;
+	z-index: 1;
+	min-width: 100px;
+	height: 0px;
+
+}
+#menu .item_menu .submenu a{
+	font-family: 'EB Garamond', serif;
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+	font-size: 15px;
+}
+#menu .item_menu .submenu a:hover{
+	border-bottom: 2px solid #000;
+}
+#menu .item_menu:hover .submenu{
+	transition: height 2s;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
