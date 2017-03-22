@@ -8,7 +8,6 @@ https://www.templatemonster.com/demo/61150.html
 	height: 100vh;
 }
 #menu{
-
 	color: #fff;
 	margin-top: 0px;
 
@@ -35,28 +34,50 @@ https://www.templatemonster.com/demo/61150.html
 /*submenu*/
 #menu .item_menu .submenu{
 	position: absolute;
-	background-color: #eee;
+	background-color: rgba(0,0,0,0.8);
 	border-radius: 5px;
 	z-index: 1;
-	min-width: 100px;
-	height: 0px;
+	height: 200px;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	padding-top: 100px; 
+	padding-right: 50px;
+	padding-left: 50px;
+	overflow: visible;
+}
+#menu .item_menu #submenu_home #submenu_home_text{
+	font-family: 'EB Garamond', serif;
+	color: #fff;
+	font-size: 20px;
+	text-align: right;
+
+	display: block;
+	float: right;
+	margin: 0 auto;
+	width: 40%;
+}
+#menu .item_menu #submenu_home #submenu_home_img{
+
+	display: block;
+	float: left;
+	margin: 0 auto;
+	width: 55%;
+	height: 300px;
+	background-image: url("../img/home_submenu.jpg");
+	background-size: cover;
+
+} 
+#menu .item_menu #submenu_home #submenu_home_img img{
+	/*width: 70%;*/
+}
+#menu .item_menu #submenu_home #submenu_home_text span{
+	font-size: 30px;
 
 }
-#menu .item_menu .submenu a{
-	font-family: 'EB Garamond', serif;
-	display: block;
-	text-decoration: none;
-	color: black;
-	padding: 10px;
-	font-size: 15px;
-}
-#menu .item_menu .submenu a:hover{
-	border-bottom: 2px solid #000;
-}
-#menu .item_menu:hover .submenu{
-	transition: height 2s;
-	
-}
+
+
+
 
 
 
